@@ -1,0 +1,179 @@
+
+
+body {
+    background-repeat: no-repeat, repeat;
+    background-color: #e8ded9;
+    font-family: Roboto;
+    padding-left: 30px;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+}
+.navbutton {
+    background-color: #61c386;
+    color: white !important; 
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.green-copy {
+    color:#61c386
+}
+h1 {
+    font-weight: 600;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+h2 {
+    font-weight: 400;
+}
+p {
+    font-weight: 400;
+    color: #5b8c6f;
+
+  }
+  
+.button {
+    background-color: #61c386;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px;
+   
+}
+@media (max-width: 768px) {
+    .button {
+        font-size: 20px;
+        color: white;
+        display: block;
+        bottom: 0px;
+        width: 100%;
+    }
+  }
+.button:hover {
+    background-color: #f7e966;
+    color: white;
+}
+
+a:link {
+    color: #5b8c6f;
+    text-decoration: none;
+  }
+ul {
+    display: flex;
+    list-style-type: none;
+    font-weight: 400;
+}
+li {
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
+  }
+@media (max-width: 768px) {
+    .body {
+        width:100%;
+        display:block;
+    
+    }
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+    position: flexible;
+    width: 100%;
+
+}
+navbar ul {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+
+}
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        list-style-type: none;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    
+    }
+}
+@media (max-width: 768px) {
+    .navbutton { 
+    font-size: 20px;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    display: block !important;
+    width: 100% !important;
+    text-align: center;
+    position: fixed;
+
+}
+    }
+.container {
+    background-image: url(/img/code.png);
+    height: 280px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    width: 100%;
+    
+}
+@media (max-width: 768px) {
+    .container {
+    background-image: none;
+
+}
+}
+@-ms-viewport{
+    width: device-width;
+}
+.left {
+    width: 60%;
+    padding-top: 0px;
+}
+.navbar ul li {
+padding: 0 8px;
+}
+@media (max-width: 768px) {
+    .left {
+    width: 100%;
+    padding-top: 0px;
+}
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+@media (max-width: 768px) {
+    .flex-container {
+        width: 100%;
+        display: block;
+
+    }
+}
+
+ 
